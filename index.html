@@ -2,18 +2,33 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My First CRUD App</title>
-    <script src="libs/jquery.js"></script>
+  <title>Snippet App</title>
+  <script src="node_modules/jquery/dist/jquery.js"></script>
 
   <script src="app.js"></script>
 </head>
 <body>
+  <div class="sidebar">
+    <label for="save-name">Give your snippet a name</label>
+    <input id="save-name" class="textField" type="text" name="saveField">
 
-  <input class="textField" type="text" name="firstInputField">
-  <button class="setData">Click to save text</button>
-  <button class="getData">Click to get text</button>
+    <label for="snippetContainer">Write your snippet here please</label>
+    <textarea name="snippetContainer" id="snippetContainer" cols="30" rows="10"></textarea>
 
-<div class="debug"></div>
+    <button class="setData">Click to save text</button>
+  </div>
+
+  <main class="search-results">
+    <div>
+      <label for="get-name">name</label>
+      <input id="get-name" class="textField" type="text" name="searchField">
+      <button class="getData">Let's get it</button>     
+    </div>
+
+    <div>
+      
+    </div>
+  </main>
 
 </body>
 </html>

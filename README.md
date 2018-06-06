@@ -3,11 +3,11 @@ code along exercise
 
 Goals:
 
--[] Input form with single text input
+-[X] Input form with single text input
 
--[] click handler to capture data in text form field
+-[X] click handler to capture data in text form field
 
--[] helper utilities to read and write to local storage
+-[X] helper utilities to read and write to local storage
 
 -[] Make it handle code! (use a textarea instead of a text)
 

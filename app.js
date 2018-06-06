@@ -1,17 +1,18 @@
 $(document).ready(function(){
 
   $('.setData').on('click', function() {
-    let textFieldValue = $('.textField').val();
-    $('.debug').text(textFieldValue);
+    let nameInput = $('#save-name');
+    let name = nameInput.val();
+    let snippetInput = $('#snippetContainer');
+    let snippet = snippetInput.val();
 
-    localStorage.setItem('myFormTextData', textFieldValue);
-    $('.textField').val('');
-
+    localStorage.setItem(name, snippet);
+    nameInput.val('');
+    snippetInput.val('');
   });
 
   $('.getData').on('click', function(){
     let retrievedData = localStorage.getItem('myFormTextData');
-    $('.debug').text(retrievedData);
   });
 
 });

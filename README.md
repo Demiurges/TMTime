@@ -21,7 +21,7 @@ Goals:
 
 ## Basic Requirements PT. 2
 
-- [ ] One: Host your app on repl.it [repl.it](https://repl.it/languages/web_project)
+- [x] One: Host your app on repl.it [repl.it]https://repl.it/@Demiurges/Cruddy-App
 
 - [ ] Two: Expand on the UI/UX making it look like a nice modern web app. Add a consistent layout, styled throughout with a pleasing color scheme. 
 

@@ -16,6 +16,7 @@ $(document).ready(function(){
     snippetInput.val('');
   });
 
+  
   $('.get-data').on('click', function(){
     $('all-snippets').hide();
     let getNameInput = $('#get-name');
